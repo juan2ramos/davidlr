@@ -8,10 +8,7 @@ body
   background:#ccc; 
   overflow-x:hidden; 
 }
-html:not(.safe-mod) body 
-{  
-  -webkit-user-select:none; -webkit-text-size-adjust:none; 
-}
+
 p,ul,ol 
 {
  font-size:.875em; 
@@ -166,14 +163,7 @@ h2.caption span:after
   float:left; 
   list-style: none;
 }
-#header nav ul:after, #header nav ul:before 
-{ 
-  margin-top:0.5em; 
-  content: ""; 
-  float:left; 
-  border-width:1.5em; 
-  border-style:solid; 
-}
+
 #header nav ul:after 
 { 
   border-right-color:transparent !important; 
@@ -269,11 +259,8 @@ ul.personal-info .title:after
   border-left-style:solid;
   border-bottom:0.5em solid transparent; 
 }
-ul.personal-info .value
-{
-  margin-left:15px; 
-  font-style:italic; 
-}
+
+
 .profile-image
 
 {
